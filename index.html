@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,7 +17,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo-dark.png" alt="Logo" class="img-fluid w-50">
+                    <img src="img/logo-dark.png" alt="Logo" class="img-fluid" style="width: 70%;">
                 </a>
 
                 </button>
@@ -42,17 +43,18 @@
                         </li>
 
                     </ul>
-                    <a href="#" class="btn btn-light  rounded-pill text-black border border-lightgary transition-y fs-15">Get Webfy Today</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+
                 </div>
+                <a href="#" class="btn btn-light  rounded-pill text-black border border-lightgary transition-y fs-15 " style="width: 210px; padding: 10px">Get Webfy Today</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
             </div>
         </nav>
     </header>
 
     <section class="container-fluid">
         <div class="row px-0">
-            <div id="carouselExampleControls" class="carousel slide px-0" data-bs-ride="carousel">
+            <div id="carouselHome" class="carousel slide px-0" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                       <div class="bgc-1">
@@ -61,8 +63,8 @@
                                 <p class="text-white position-relative fs-18 w-75">We design digital platforms that elevate the good customer  experience for the world's most beloved brands prosper.</p>
                                     <div>
                                         <button class="btn-w  btn-light transition-y" style="margin-right: 5px;">Lear More</button>
-                    <button class="btn-w btn-w-blue transition-y">Contact Us</button>
-                </div>
+                <button class="btn-w btn-w-blue transition-y">Contact Us</button>
+            </div>
             </div>
             </div>
 
@@ -80,19 +82,207 @@
                 </div>
             </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev" style="width: 5%;">
+            <a class="carousel-control-prev" href="#carouselHome" role="button" data-bs-slide="prev" style="width: 5%;">
                 <span class="carousel-control-prev-icon " aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next" style="width: 5%;">
+            <a class="carousel-control-next" href="#carouselHome" role="button" data-bs-slide="next" style="width: 5%;">
                 <span class="carousel-control-next-icon " aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
             </div>
             </div>
             </section>
+            <section class="container mt-5">
+                <div class="row py-4">
+                    <div id="carouselMarcas" class="carousel slide " data-bs-ride="carousel">
+                        <div class="carousel-inner px-5">
+                            <div class="carousel-item active px-5">
+
+                                <div class=" d-flex justify-content-between align-items-center">
+                                    <div class="">
+                                        <img src="img/marcas/marca-1.png" class="d-block" alt="...">
+                                    </div>
+                                    <div class="">
+                                        <img src="img/marcas/marca-2.png" class="d-block" alt="...">
+                                    </div>
+                                    <div class="">
+                                        <img src="img/marcas/marca-3.png" class="d-block" alt="...">
+                                    </div>
+                                    <div class="">
+                                        <img src="img/marcas/marca-4.png" class="d-block" alt="...">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <div class=" d-flex justify-content-between align-items-center">
+                                    <div class="">
+                                        <img src="img/marcas/marca-4.png" class="d-block" alt="...">
+                                    </div>
+                                    <div class="">
+                                        <img src="img/marcas/marca-5.png" class="d-block" alt="...">
+                                    </div>
+                                    <div class="">
+                                        <img src="img/marcas/marca-6.png" class="d-block" alt="...">
+                                    </div>
+                                    <div class="">
+                                        <img src="img/marcas/marca-1.png" class="d-block" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselMarcas" role="button" data-bs-slide="prev" style="width: 5%;">
+                            <!-- <span class="carousel-control-prev-icon "></span> -->
+                            <i class="bi bi-chevron-left text-black " aria-hidden="true" style="font-size: 40px;"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselMarcas" role="button" data-bs-slide="next" style="width: 5%;">
+                            <i class="bi bi-chevron-right text-black " aria-hidden="true" style="font-size: 40px;"></i>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container mt-5 pb-5">
+                <div class="d-flex justify-content-center flex-column align-items-center">
+                    <h6 style="color: #b5b5b5; font-size: 12px;">WELCOME TO ONEPAGE WEBSITE</h6>
+                    <h2 class=" h2 text-center" style="width: 570px;">Everything you need to manage your one page website, in your pocket.</h2>
+
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <div class="card transition-y">
+                                <i class="bi bi-bell text-center  py-5 text-primary fs-1"></i>
+                                <h3 class="text-center  fs-18">Better Approach</h3>
+                                <div class="card-body pt-0 pb-5  d-flex justify-content-center flex-column align-items-center">
+                                    <p class="card-text text-center fw-bolder">Cobbler's pose, bound angle pose staff pose bow pose sage koundinya.</p>
+                                    <a href="#" class="card-text  learMore mt-3 text-center">Lear More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card transition-y my-3 my-md-0 ">
+                                <i class="bi bi-bar-chart text-center  py-5 text-primary fs-1"></i>
+                                <h3 class="text-center  fs-18">Better Strategy</h3>
+                                <div class="card-body pt-0 pb-5 d-flex justify-content-center flex-column align-items-center mt-0">
+                                    <p class="card-text text-center fw-bolder">Cobbler's pose, bound angle pose staff pose bow pose sage koundinya.</p>
+                                    <a href="#" class="card-text  learMore mt-3 text-center">Lear More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card transition-y">
+                                <i class="bi bi-graph-up text-center  py-5 text-primary fs-1"></i>
+                                <h3 class="text-center  fs-18">Better Understanding</h3>
+                                <div class="card-body pt-0 pb-5  d-flex justify-content-center flex-column align-items-center">
+                                    <p class="card-text text-center fw-bolder">Cobbler's pose, bound angle pose staff pose bow pose sage koundinya.</p>
+                                    <a href="#" class="card-text learMore mt-3 text-center">Lear More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <div class="dropdown-divider my-5"></div>
+
+            <section class="container py-5">
+                <div class="row py-5">
+                    <div class="col">
+                        <div class="d-flex  justify-content-center  flex-column align-items-md-start align-items-center">
+                            <h2 class="h2 text-md-left " style="width: 440px;">We analyze your business from every direction.</h2>
+                            <p class="lead mt-2 mb-5" style="width: 480px; line-height: 1.8rem;">Apparently we had reached a great height in the sphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion</p>
+                            <a href="#" class="btn btn-primary btn-lg transition-y"> Get Free Consultation</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="reuniao">
+                            <div class="rounder-cicle position-relative bg-danger border border-light rounded-circle border-5" style="width: 80px; height: 80px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-caret-right-fill icon"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <div class="dropdown-divider my-5"></div>
+
+            <section class="container-fluid py-5">
+                <div class="d-flex justify-content-center flex-column align-items-center">
+                    <h6 style="color: #b5b5b5; font-size: 12px;">WELCOME TO ONEPAGE WEBSITE</h6>
+                    <h2 class=" h2 text-center" style="width: 570px;">Everything you need to manage your one page website, in your pocket.</h2>
+                    <div class="row mt-5">
+                        <div id="carouselPaisagens" class="carousel slide p-0 " data-bs-ride="carousel">
+                            <div class="carousel-inner ">
+                                <div class="carousel-item active ">
+                                    <div class="row">
+                                        <div class="col-4 ">
+                                            <img src="img/paisagens/balao-2.jpg" class="img-fluid w-100" alt="" style="height: 400px">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="img/paisagens/bicicleta.jpg" class="img-fluid w-100" alt="" style="height: 400px">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="img/paisagens/guarda-chuvas.jpg" class="img-fluid w-100" alt="" style="height: 400px">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-4 ">
+                                            <img src="img/paisagens/predio.jpg" class="img-fluid w-100" alt="" style="height: 400px">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="img/paisagens/balao.jpg" class="img-fluid w-100" alt="" style="height: 400px">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="img/paisagens/balao-2.jpg" class="img-fluid w-100" alt="" style="height: 400px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselPaisagens" role="button" data-bs-slide="prev" style="width: 5%;">
+                                <!-- <span class="carousel-control-prev-icon "></span> -->
+                                <div class="b">
+                                    <i class="bi bi-chevron-left text-black " aria-hidden="true" style="font-size: 24px;"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </div>
+
+                            </a>
+                            <a class="carousel-control-next" href="#carouselPaisagens" role="button" data-bs-slide="next" style="width: 5%;">
+                                <div class="b">
+                                    <i class="bi bi-chevron-right text-black " aria-hidden="true" style="font-size: 24px;"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <div class="dropdown-divider my-5"></div>
 
 
+
+            <!-- Modal video -->
+            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> display: flex;
+
+
+                <div class="modal-dialog " style="max-width: 70%">
+                    <div class="modal-content position-relative" style="background-color: #1f1d21;">
+                        <div class="d-flex justify-content-end p-3 icon-modal" data-bs-dismiss="modal" aria-label="Close" style="cursor: pointer">
+
+                            <i class="bi bi-x text-white " style="font-size: 2.5rem; background: red; height: 38px;"></i>
+                        </div>
+
+                        <div class="modal-body p-0">
+                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/7KIEvEODCI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <script type="text/javascript" src="js/popper.min.js"></script>
             <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
