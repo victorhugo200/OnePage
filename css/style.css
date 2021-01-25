@@ -1,10 +1,10 @@
 body {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.6em;
+    color: #666 !important;
+    font-size: 14px !important;
+    line-height: 1.6em !important;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     padding-top: 70px;
 }
 
@@ -73,6 +73,10 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     padding: 300px;
+}
+
+.lightgray {
+    color: #666666;
 }
 
 .bgc-2::before {
@@ -176,4 +180,58 @@ h6 {
     border-radius: 50%;
     background: #b7b7b7;
     padding: 10px;
+}
+
+.scale-img {
+    transition: .4s ease;
+}
+
+.scale-img:hover {
+    transform: scale(1.1);
+    transition: .4s ease;
+}
+
+.addIcon {
+    display: none;
+    transition: .4s ease;
+}
+
+.bgc-1:hover .addIcon {
+    display: block;
+    transition: .4s ease;
+}
+
+.bgc-2:hover .addIcon {
+    display: block;
+    transition: .4s ease;
+}
+
+@media screen and (max-width: 700px) {
+    .texts {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .font-1 {
+        font-size: 1.5rem;
+    }
+    .bgc-1-content {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .bgc-1,
+    .bgc-2 {
+        padding: 40px;
+    }
+    .container-btn {
+        margin: 10px auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 50% !important;
+    }
 }
